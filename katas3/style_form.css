@@ -1,1 +1,102 @@
-/* FOLHA DE ESTILO DA PAGINA DE FORMULÁRIO */
+body {
+    margin-top: 20px;
+}
+
+
+.inicial {
+    padding: 15px 15px 15px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;    
+    text-align: center;
+    border-radius: 50px;
+    border:2px solid lightseagreen;
+    
+}
+
+h2 {
+    color:darkcyan;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nomeform {
+    color: darkcyan;
+    font-size: 18px;
+}
+
+#nome  {
+    border:2px solid darkcyan;
+    background-color: lightgray;
+   
+}
+
+#sobrenome {
+    border:2px solid darkcyan;
+    background-color: lightgray;
+}
+
+#legenda {
+    font-size: 18px;
+}
+fieldset {
+    margin-top: 10px;
+    color: darkcyan;
+    border: 2px solid darkcyan;
+    background-color: lightgrey;
+}
+
+.profiarea {
+    display: inline-block;
+    float: left;
+}
+#profissao {
+    
+    margin-top: 10px;
+    border: 2px solid darkcyan;
+    background-color: lightgrey;
+
+}
+
+#profi {
+    color: darkcyan;
+    font-size: 18px;
+}
+
+#país {
+    margin-top: 10px;
+    border: 2px solid darkcyan;
+    background-color: lightgrey;
+    color: darkcyan;
+           
+}
+
+.interesses {
+    
+    border: 2px solid darkcyan;
+    margin-top: 10px;
+    background-color: lightgrey;
+    color: darkcyan;
+}
+
+.interesses p {
+    font-size: 18px;
+}
+
+.como_descobriu {
+    display: inline-grid;
+    color: darkcyan;
+    font-size: 18px;
+}
+
+#site {
+    margin-top: 10px;
+    border: 2px solid darkcyan;
+    background-color: lightgrey;
+}
+
+#button {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}

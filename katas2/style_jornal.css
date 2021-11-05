@@ -1,1 +1,127 @@
-/* FOLHA DE ESTILO DA PAGINA DE JORNAL */
+
+
+#logotipo > img {
+    display: inline;
+    width: 300px;
+   
+}
+
+h1 {
+    
+    width: 340px;
+    background-color: lightsteelblue;
+    font-size: 50px;
+    color:darkblue;
+    
+}
+
+
+
+.menu {
+       
+    padding: 2px 10px;
+    font-size: 25px;
+    
+        
+    
+}
+
+ ul {
+     display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+
+.menu  a {
+    
+    margin-right: 10px;
+    text-decoration: none;
+    color: black ;
+}
+a:hover {
+    color: lightsteelblue;
+}
+
+#divBusca{
+    float: right;
+    background-color:#E0EEEE;
+    border:solid 2px lightsteelblue;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:222px;
+  }
+
+  #btnBusca{
+    float: right;
+    height: 32px;
+    border-radius:10px;
+    width:70px;
+    font-weight:bold;
+    background:lightsteelblue;
+  }
+
+  main {
+      display: flex;
+      margin: 10px 10px 10px 10px;
+      padding-top: 50px;
+      justify-content: center;
+  }
+
+  
+
+
+    article {
+        margin: 10px 10px 10px 10px;
+    }
+    
+   
+   .img_artigos img {
+
+    width: 150px;
+    height: 200px;
+    float: left;
+    margin-right: 30px;
+    
+        
+  }
+
+  .img_artigos {
+      margin-right: 20px;
+  }
+
+  .autores {
+      font-size: 20px;
+  }
+
+  .final{
+      background-color: lightsteelblue;
+      font-size: 25px;
+      padding-left: 10px;
+      color: darkblue;
+      font-weight: bold;
+  }
+
+  .rodape {
+      text-align: center;    
+  }
+
+  .rodape a {
+      padding-right: 10px;
+      font-size: 18px;
+  }
+
+  .rodape p {
+      font-size: 19px;
+  }
+

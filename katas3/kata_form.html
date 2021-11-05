@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="style_form.css">
+</head>
+
+<body>
+    <div class="inicial">
+        <h2>Formulário de inscrição - Desenvolvedor</h2>
+        <main>
+            <form>
+
+                <div class="nomeform">
+                    <label for="nome">Nome Completo *:</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome" required>
+                    <input type="text" id="sobrenome" placeholder="Digite seu sobrenome" required>
+                </div>
+
+                <fieldset>
+                    <legend id="legenda">Informe sua idade *:</legend>
+                    <input type="radio" name="idade" required>
+                    <label for="idade">Menor ou igual a 18 anos</label>
+                    <input type="radio" name="idade">
+                    <label for="idade">Entre 19 e 35 anos</label>
+                    <input type="radio" name="idade">
+                    <label for="idade">Entre 36 e 48 anos</label>
+                    <input type="radio" name="idade">
+                    <label for="idade">49 anos ou mais</label>
+                </fieldset>
+                <div class="profiarea">
+                    <label id="profi" for="profissao">Profissão *:</label>
+                    <input type="text" id="profissao" placeholder="Informe sua profissão" required>
+                </div>
+
+
+                <div>
+                    <select id="país" required>
+
+                        <option value="">--Selecione o País--</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Bolivia">Bolívia</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Colombia">Colômbia</option>
+                        <option value="Mexico">México</option>
+                        <option value="Paraguai">Paraguai</option>
+                        <option value="Peru">Peru</option>
+                        <option value="Uruguai">Uruguai</option>
+                        <option value="Venezuela">Venezuela</option>
+
+                    </select>
+                </div>
+                <div class="interesses">
+                    <p>Quais seus interesses*? (obs: pode selecionar mais de uma opção.)</p>
+
+                    <input type="checkbox" name="Musica">
+                    <label for="Musica">Música</label>
+                    <input type="checkbox" name="Cinema">
+                    <label for="Cinema">Cinema</label>
+                    <input type="checkbox" name="Esporte">
+                    <label for="Esporte">Esporte</label>
+                    <input type="checkbox" name="Danca">
+                    <label for="Danca">Dança</label>
+                    <input type="checkbox" name="Leitura">
+                    <label for="Leitura">Leitura</label>
+                    <input type="checkbox" name="games">
+                    <label for="games">Games</label>
+                    <input type="checkbox" name="tecnologia">
+                    <label for="tecnologia">Tecnologia</label>
+                    <input type="checkbox" name="balada">
+                    <label for="balada">Balada</label>
+                    <input type="checkbox" name="viagem">
+                    <label for="viagem">Viagem</label>
+                    <input type="checkbox" name="outros">
+                    <label for="outros">Outros</label>
+
+
+                </div>
+                <div class="como_descobriu">
+                    <label for="site">Como descobriu o site?</label>
+                    <textarea id="site" rows="10" cols="30" placeholder="Descreva em algumas palavras..."
+                        required></textarea>
+                </div>
+                <button id="button" type="submit">Enviar</button>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>
